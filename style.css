@@ -1,0 +1,41 @@
+
+
+
+.header{
+display:flex;
+justify-content:space-between ;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    margin-top: 30;
+    background-color: aqua;
+    width: 100px;
+    height: 30px
+}
+.site-description{
+    font-family: monotype corsiva;
+    font-size: 30;
+    text-decoration:underline;
+    font-weight: bold;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+
+.items p{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
